@@ -28,7 +28,7 @@ def training(train_path):
 				word_token = nltk.tokenize.word_tokenize(line)
 				for wt in word_token:
 					wt = wt.lower()
-					if wt not in stopword:
+					if wt not in stopword and regex.match(wt) is None:
 						wt = lemmatizer.lemmatize(wt)
 						wt = stemmer.stem(wt)
 						wt_list = []
