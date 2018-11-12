@@ -1,0 +1,43 @@
+with multiprocessing all training files and 1007 testing files:
+
+pos %    80.357
+neg %    87.301
+avg%     83.829
+time       1437.09 sec
+
+without multiprocessing 10007 training files and 2007 testing files:
+
+pos %   78.869
+neg %   88.095
+avg%    83.482
+time      715.823 sec
+
+without multiprocessing 10007 training files and 1007 testing files:
+
+pos %   79.183
+neg %   85.358
+avg%    82.271
+time      641.81 sec
+
+without multiprocessing all training files and 2007 testing files:
+
+pos %      80.677
+neg %      85.0099
+avg%      82.843
+time         719.144 sec
+
+without multiprocessing all training files and all testing files:
+
+pos %    78.35
+neg %    82.86
+avg%     80.608
+time       1002.85 sec
+
+without multiprocessing all training files and 2000 testing files:
+
+pos %    80.70
+neg %    84.957
+avg%     82.83
+time       666.089 sec
+
+
